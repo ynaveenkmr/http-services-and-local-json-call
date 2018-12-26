@@ -1,0 +1,22 @@
+<h5>
+json local data
+</h5>
+
+
+<table class="table table-border table-responsive">
+  <tr class="table-primary">
+  <th>Id</th>
+  <th>Name</th>
+  <th>City</th>
+  <th>Salary</th>
+  <th>DOB</th>
+  </tr>
+  <tr *ngFor = "let client of clients">
+    <td>{{client.id}}</td>
+    <td>{{client.name}}</td>
+    <td>{{client.city}}</td>
+    <td>{{client.salary}}</td>
+    <td>{{client.dob}}</td>
+
+  </tr>
+</table>

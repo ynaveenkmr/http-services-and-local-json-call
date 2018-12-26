@@ -1,0 +1,23 @@
+<h5>
+Json data retriving from another network using http services.
+</h5>
+
+<br/>
+<h6>
+https://jsonplaceholder.typicode.com/users
+</h6>
+<table class="table table-border table-responsive">
+  <tr class="table-primary">
+  <th>Id</th>
+  <th>Name</th>
+  <th>User Name</th>
+  <th>Email</th>
+  
+  </tr>
+  <tr *ngFor = "let user of users">
+    <td>{{user.id}}</td>
+    <td>{{user.name}}</td>
+    <td>{{user.username}}</td>
+    <td>{{user.email}}</td>
+  </tr>
+</table>
